@@ -6,6 +6,7 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 
 **Insights**
 1.Overall Revenue is 55M
+
 2.Total Interest is 8M
 3.Male Customers are contributing more in revenue than females
 4.Blue and Silver credit card are contributing 94% to the overall transaction
