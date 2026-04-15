@@ -6,6 +6,8 @@
 
 ## 📋 Overview
 
+This project presents an interactive Power BI dashboard built on credit card transaction and customer data. It covers two reporting views — a **Transaction Report** and a **Customer Report** — offering a 360° view of revenue performance, spending patterns, and customer segmentation. The dashboard enables stakeholders to monitor KPIs, identify high-value customer segments, and make data-driven decisions.
+
 ---
 
 ## ❓ Problem Statement
@@ -33,16 +35,31 @@ Credit card companies handle millions of transactions but need structured analys
 
 ![MySQL](https://img.shields.io/badge/SQL-MySQL-blue?style=flat-square&logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-orange?style=flat-square&logo=powerbi&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-Data%20Prep-green?style=flat-square&logo=microsoftexcel&logoColor=white)
 
-- **MySQL** — Database creation, data import, SQL queries and views for data extraction
+- **MySQL** — Database creation, data import, data storage and structured querying
 - **Power BI** — Two-page interactive dashboard with DAX measures, slicers, and KPI cards
-- **Excel** — Initial data preparation of transaction and customer CSV files
 
 ---
 
 ## 🔄 Methods
 
+### Step 1 — Database Setup
+
+```sql
+-- Database and table setup
+CREATE DATABASE credit_card;
+USE credit_card;
+
+-- Import credit_card.csv and customer.csv into respective tables
+```
+### Step 2 — Database Connection
+Connected Power BI directly to the MySQL database using the native MySQL connector.
+
+### Step 3 — DAX Measures
+Created calculated measures for age group, income group, curent week revenue, previous week revenue.
+
+### Step 4 — Dashboard Design
+Built two report pages: a Transaction Report and a Customer Report, each with cross-filtered visuals.
 
 ---
 
